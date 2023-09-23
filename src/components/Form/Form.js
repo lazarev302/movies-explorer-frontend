@@ -6,11 +6,11 @@ import logo from "../../images/header-logo.svg"
 function Form({ title, buttonText, question, linkText, children, link }) {
   return (
     <>
-      <div className="form__container">
-        <Link to="/" className="form__logo">
+      <main className="form__container">
+        <Link to="/" className="logo">
           <img src={logo} alt="логотип" />
         </Link>
-        <h3 className="form__title">{title}</h3>
+        <h1 className="form__title">{title}</h1>
         <form className="form" id="form" noValidate>
           {children}
           <button type="submit" className="form__button-save">
@@ -23,7 +23,7 @@ function Form({ title, buttonText, question, linkText, children, link }) {
             {linkText}
           </Link>
         </p>
-      </div>
+      </main>
     </>
   )
 }

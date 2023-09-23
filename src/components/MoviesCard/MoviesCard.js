@@ -24,7 +24,7 @@ function MoviesCard() {
           <div className="card__wrapper">
             <img
               className="card__image"
-              alt="фотокарточка с изображением фильма"
+              alt=""
             />
             <button
               className="card__like-button card__like-button_active card__like-delete"
@@ -32,7 +32,7 @@ function MoviesCard() {
             ></button>
             <div className="card__title-block">
               <h2 className="card__title">33 слова о дизайне</h2>
-              <span className="card__time">1ч 37м</span>
+              <p className="card__time">1ч 37м</p>
             </div>
           </div>
         </li>
@@ -43,7 +43,7 @@ function MoviesCard() {
             <div className="card__wrapper">
               <img
                 className="card__image"
-                alt="фотокарточка с изображением фильма"
+                alt=""
               />
               <button
                 className="card__like-button card__like-button_active"
@@ -51,7 +51,7 @@ function MoviesCard() {
               ></button>
               <div className="card__title-block">
                 <h2 className="card__title">33 слова о дизайне</h2>
-                <span className="card__time">1ч 37м</span>
+                <p className="card__time">1ч 37м</p>
               </div>
             </div>
           </li>
@@ -60,12 +60,12 @@ function MoviesCard() {
             <div className="card__wrapper">
               <img
                 className="card__image"
-                alt="фотокарточка с изображением фильма"
+                alt=""
               />
               <button className="card__like-button" type="button"></button>
               <div className="card__title-block">
                 <h2 className="card__title">33 слова о дизайне</h2>
-                <span className="card__time">1ч 37м</span>
+                <p className="card__time">1ч 37м</p>
               </div>
             </div>
           </li>
@@ -74,12 +74,12 @@ function MoviesCard() {
             <div className="card__wrapper">
               <img
                 className="card__image"
-                alt="фотокарточка с изображением фильма"
+                alt=""
               />
               <button className="card__like-button" type="button"></button>
               <div className="card__title-block">
                 <h2 className="card__title">33 слова о дизайне</h2>
-                <span className="card__time">1ч 37м</span>
+                <p className="card__time">1ч 37м</p>
               </div>
             </div>
           </li>

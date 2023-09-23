@@ -6,11 +6,13 @@ import "./Movies.css"
 
 function Movies() {
   return (
-    <section className="movies">
-      <SearchForm />
-      <MoviesCardList />
-      <Footer />
-    </section>
+    <main>
+      <section className="movies">
+        <SearchForm />
+        <MoviesCardList />
+        <Footer />
+      </section>
+    </main>
   )
 }
 

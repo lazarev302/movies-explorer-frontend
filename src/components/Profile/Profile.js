@@ -6,7 +6,7 @@ function Profile() {
   return (
     <>
       <section className="profile">
-        <h3 className="profile__welcome">Привет, Роман!</h3>
+        <h1 className="profile__welcome">Привет, Роман!</h1>
         <form id="form" className="profile__form" noValidate>
           <label className="profile__label">
             Имя
